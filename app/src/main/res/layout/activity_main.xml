@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_above="@+id/tv_textView"
+        android:id="@+id/tv_boolText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/dots"
+        android:textColor="#000"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="@string/one"/>
+
+
+</RelativeLayout>
